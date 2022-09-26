@@ -20,6 +20,15 @@ a:hover{
     text-decoration: underline;
 }
 
+h1{
+    font-size: 80px;
+    line-height: 1.1;
+    padding-bottom: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
 /* DEBUG */
 
 /* BTN */
@@ -28,11 +37,12 @@ button{
     border: none;
     color: white;
     padding: 6px 10px;
+    font-style:inherit ;
 }
 
 button:hover{
+    cursor: pointer;
 }
-
 
 /* HEADER */
 
@@ -60,15 +70,41 @@ button:hover{
     justify-content: flex-end;
 }
 
-
-
-
-
-
-
 .header-row{
     display: flex;
     align-items: center;
     vertical-align: middle;
 }
 
+/* HERO */
+.hero{
+    background-color: #B4D0E7;
+    padding-top: 100px;
+}
+
+.container-hero{
+    max-width: 1180px;
+    margin: auto;
+    position: relative;
+    bottom: -80px;
+}
+
+.hero-box{
+    display: flex;
+}
+
+.col-text {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.col-img {
+    width: 70%;
+}
+
+.col-img img{
+    max-width: 100%;
+}
