@@ -23,13 +23,17 @@ a:hover{
 h1{
     font-size: 80px;
     line-height: 1.1;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 h2{
     font-size: 40px;
 }
-/* DEBUG */
+/* COMMON */
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
 
 /* BTN */
 button{
@@ -79,7 +83,6 @@ button:hover{
 /* HERO */
 .hero{
     background-color: #B4D0E7;
-    padding-top: 100px;
 }
 
 .container-hero{
@@ -108,3 +111,6 @@ button:hover{
 .col-img img{
     max-width: 100%;
 }
+
+/* MAIN */
+
