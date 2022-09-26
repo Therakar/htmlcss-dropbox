@@ -6,7 +6,69 @@
 }
 
 /* TYPOGRAPHY */
-
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+li a{
+    text-decoration: none;
+    vertical-align: middle;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* DEBUG */
+
+/* BTN */
+button{
+    background-color: #0061FF;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+}
+
+button:hover{
+}
+
+
+/* HEADER */
+
+.nav-right, .nav-left{
+    width: 50%;
+}
+
+.nav-left ul, .nav-right ul {
+    list-style: none;
+    display: flex;
+    list-style: none;
+    text-decoration: solid;
+}
+
+.nav-right ul{
+    justify-content: flex-end;
+}
+
+.nav-left ul li, .nav-right ul li {
+    padding: 20PX 15px;
+}
+
+.nav-right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+.header-row{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
