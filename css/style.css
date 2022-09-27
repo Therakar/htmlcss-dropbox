@@ -32,12 +32,12 @@ h1{
 
 h2{
     font-size: 40px;
-    padding-top: 30px;
     padding-bottom: 70px;
 }
 
 h3{
     font-size: 25px;
+    text-align: left;
 }
 
 ul {
@@ -53,6 +53,7 @@ li, p, span{
     max-width: 1000px;
     margin: auto;
     font-family: inherit;
+    padding: 50px 0;
 }
 
 /* BTN */
@@ -60,17 +61,13 @@ li, p, span{
     background-color: #0061FF;
     border: none;
     color: white;
-    padding: 6px 10px;
+    padding: 10px 15px;
     font-style:inherit ;
 }
 
 .btn:hover{
     cursor: pointer;
-    
-}
-
-.btn-trial-hero, .btn-trial{
-    padding: 15px;
+    opacity: 0.8
 }
 
 .btn-trial{
@@ -80,6 +77,13 @@ li, p, span{
 .btn-trial-hero{
     width: 60%;
 }
+
+.btn-alternative{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
 /* HEADER */
 header{
     font-family: inherit;
@@ -175,7 +179,7 @@ div > span{
     padding-bottom: 20px;
 }
 
-.plan-row{
+.row{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -197,7 +201,7 @@ div > span{
     padding-bottom: 40px;
 }
 
-.price li,.price-whide li{
+.price li,.col-big li{
     padding-bottom: 10px;
 }
 
@@ -252,20 +256,28 @@ main hr{
 
 .col-whide-main{
     display: flex;
-}
-.price-whide{
-    width: 70%;
-    padding-right: 40px;
-    
+    justify-content: space-between;
 }
 
-.office-contact{
-    width: 30%;
-    text-align: center;
-    padding-left: 30px;
+.col-whide-main .col-small{
+    padding: 0 0 0 130px;
+}
+.col-big{
+    width: 60%;
 }
 
-.price-whide li:last-child{
+.col-small{
+    width: 40%;
+    padding: 25px;
+}
+
+.col-small li{
+    padding-bottom: 30px;
+}
+.col-big li:last-child{
     padding-top: 40px;
 }
 
+.col-big img{
+    width: 100%;
+}
