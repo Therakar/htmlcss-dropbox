@@ -10,7 +10,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-li a{
+.nav a{
     text-decoration: none;
     vertical-align: middle;
     color: black;
@@ -28,7 +28,17 @@ h1{
 
 h2{
     font-size: 40px;
+    padding-bottom: 70px;
 }
+
+h3{
+    font-size: 25px;
+}
+
+ul {
+    list-style: none;
+}
+
 /* COMMON */
 .container{
     max-width: 1000px;
@@ -36,7 +46,7 @@ h2{
 }
 
 /* BTN */
-button{
+.btn{
     background-color: #0061FF;
     border: none;
     color: white;
@@ -44,8 +54,18 @@ button{
     font-style:inherit ;
 }
 
-button:hover{
+.btn:hover{
     cursor: pointer;
+}
+
+.btn-free-trial{
+    padding: 15px;
+
+}
+
+.btn-trial{
+    width: 100%;
+    padding: 15px 0px;
 }
 
 /* HEADER */
@@ -55,9 +75,7 @@ button:hover{
 }
 
 .nav-left ul, .nav-right ul {
-    list-style: none;
     display: flex;
-    list-style: none;
     text-decoration: solid;
 }
 
@@ -65,7 +83,7 @@ button:hover{
     justify-content: flex-end;
 }
 
-.nav-left ul li, .nav-right ul li {
+.nav-left li, .nav-right li {
     padding: 20PX 15px;
 }
 
@@ -96,21 +114,119 @@ button:hover{
     display: flex;
 }
 
-.col-text {
+.hero-small {
     width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
 }
 
-.col-img {
+.hero-img {
     width: 70%;
 }
 
-.col-img img{
+.hero-img img{
     max-width: 100%;
 }
 
 /* MAIN */
+
+main{
+    padding:150px;
+}
+
+div > span{
+    padding-right: 40px;
+}
+
+.billing-btn{
+    padding-bottom: 20px;
+}
+
+.plan-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{
+    width: 30%;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+
+.client-type{
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+
+.price{
+    padding-bottom: 40px;
+}
+
+.price li{
+    padding-bottom: 10px;
+}
+
+.price li:last-of-type{
+    color: gray;
+}
+
+.offer li:last-of-type{
+    padding: 20px 0;
+}
+
+.offer li{
+    padding-bottom: 15px;
+}
+
+.padding{
+    padding: 25px;
+}
+
+.billing-btn{
+    padding-bottom: 70px;
+}
+/* ICONS */
+
+.offer li{
+    display: flex;
+}
+
+.offer a{
+    color: #014dc7;
+}
+
+.fa-solid{
+    padding-right: 10px;
+}
+
+.space-bottom{
+    margin-bottom: 30px;
+}
+
+
+.highlights{
+    
+}
+
+.highlights h4{
+   padding-bottom: 15px;
+}
+
+.highlights li{
+    display: flex;
+    padding: 10px 0;
+}
+
+.fa-check{
+    color: #0061FF;
+}
+
+hr{
+    width: 25%;
+    color: gray;
+    margin: 35px 0 45px 0;
+}
 
