@@ -8,6 +8,9 @@
 /* TYPOGRAPHY */
 body{
     font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-weight: 600;
+    font-weight: 700;
 }
 
 .nav a{
@@ -23,11 +26,13 @@ a:hover{
 h1{
     font-size: 80px;
     line-height: 1.1;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
+    font-weight: 700;
 }
 
 h2{
     font-size: 40px;
+    padding-top: 30px;
     padding-bottom: 70px;
 }
 
@@ -39,10 +44,15 @@ ul {
     list-style: none;
 }
 
+li, p, span{
+    font-weight: 400;
+}
+
 /* COMMON */
 .container{
     max-width: 1000px;
     margin: auto;
+    font-family: inherit;
 }
 
 /* BTN */
@@ -56,19 +66,24 @@ ul {
 
 .btn:hover{
     cursor: pointer;
+    
 }
 
-.btn-free-trial{
+.btn-trial-hero, .btn-trial{
     padding: 15px;
-
 }
 
 .btn-trial{
     width: 100%;
-    padding: 15px 0px;
 }
 
+.btn-trial-hero{
+    width: 60%;
+}
 /* HEADER */
+header{
+    font-family: inherit;
+}
 
 .nav-right, .nav-left{
     width: 50%;
@@ -101,6 +116,7 @@ ul {
 /* HERO */
 .hero{
     background-color: #B4D0E7;
+    font-family: inherit;
 }
 
 .container-hero{
@@ -129,9 +145,24 @@ ul {
 .hero-img img{
     max-width: 100%;
 }
+/* ICONS */
 
+.offer li{
+    display: flex;
+}
+
+.offer a{
+    color: #014dc7;
+}
+
+.fa-solid{
+    padding-right: 10px;
+}
+
+.fa-check{
+    color: #0061FF;
+}
 /* MAIN */
-
 main{
     padding:150px;
 }
@@ -147,12 +178,13 @@ div > span{
 .plan-row{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .col{
     width: 30%;
     border: 1px solid black;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .client-type{
@@ -165,7 +197,7 @@ div > span{
     padding-bottom: 40px;
 }
 
-.price li{
+.price li,.price-whide li{
     padding-bottom: 10px;
 }
 
@@ -188,19 +220,6 @@ div > span{
 .billing-btn{
     padding-bottom: 70px;
 }
-/* ICONS */
-
-.offer li{
-    display: flex;
-}
-
-.offer a{
-    color: #014dc7;
-}
-
-.fa-solid{
-    padding-right: 10px;
-}
 
 .space-bottom{
     margin-bottom: 30px;
@@ -208,7 +227,7 @@ div > span{
 
 
 .highlights{
-    
+    padding-bottom: 30px;
 }
 
 .highlights h4{
@@ -220,13 +239,33 @@ div > span{
     padding: 10px 0;
 }
 
-.fa-check{
-    color: #0061FF;
+main hr{
+    width: 25%;
+    border: 1px solid lightgray;
+    margin: 35px 0 45px 0;
 }
 
-hr{
-    width: 25%;
-    color: gray;
-    margin: 35px 0 45px 0;
+.col-whide{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.col-whide-main{
+    display: flex;
+}
+.price-whide{
+    width: 70%;
+    padding-right: 40px;
+    
+}
+
+.office-contact{
+    width: 30%;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.price-whide li:last-child{
+    padding-top: 40px;
 }
 
