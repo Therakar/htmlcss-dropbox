@@ -70,6 +70,10 @@ li, p, span{
     opacity: 0.8
 }
 
+.btn-alternative:hover{
+    background-color: lightgray;
+}
+
 .btn-trial{
     width: 100%;
 }
@@ -260,15 +264,17 @@ main hr{
 }
 
 .col-whide-main .col-small{
-    padding: 0 0 0 130px;
+    padding-left: 30px;
 }
+
 .col-big{
-    width: 60%;
+    width: 65%;
 }
 
 .col-small{
-    width: 40%;
-    padding: 25px;
+    width: 30%;
+    margin-bottom: 50px;
+    
 }
 
 .col-small li{
@@ -280,4 +286,12 @@ main hr{
 
 .col-big img{
     width: 100%;
+}
+
+.col-small img{
+    width: 100%;
+}
+
+.tool-description p{
+    padding-top: 30px;
 }
