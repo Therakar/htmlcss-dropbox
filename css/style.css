@@ -56,6 +56,12 @@ li, p, span{
     padding: 50px 0;
 }
 
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 /* BTN */
 .btn{
     background-color: #0061FF;
@@ -63,6 +69,7 @@ li, p, span{
     color: white;
     padding: 10px 15px;
     font-style:inherit ;
+    font-size: 15px;
 }
 
 .btn:hover{
@@ -153,7 +160,11 @@ header{
 .hero-img img{
     max-width: 100%;
 }
+
 /* ICONS */
+.fa-arrow-down{
+    padding-top: 80px;
+}
 
 .offer li{
     display: flex;
@@ -170,9 +181,10 @@ a{
 .fa-check{
     color: #0061FF;
 }
+
 /* MAIN */
 main{
-    padding:150px;
+    padding-top: 150px;
 }
 
 div > span{
@@ -181,12 +193,6 @@ div > span{
 
 .billing-btn{
     padding-bottom: 20px;
-}
-
-.row{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .col{
@@ -269,6 +275,7 @@ main hr{
 
 .col-big{
     width: 65%;
+
 }
 
 .col-small{
@@ -295,3 +302,97 @@ main hr{
 .tool-description p{
     padding-top: 30px;
 }
+
+
+/* section parner */
+.partners{
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.col-partner{
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(100vw/3);
+    width: calc(100vw/3);
+}
+
+.partner-box{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.col-partner.center{
+    overflow-y: auto;
+    background-color: #F5F5F5;
+}
+
+.col-partner img{
+    width: 50%;
+    filter: invert(1);
+}
+
+.center img{
+    filter: invert(0);
+}
+
+.center hr{
+    color: gray;
+    width: 25%;
+    border: 1px solid lightgray;
+    margin: 60px 0 ;
+}
+
+.center p{
+    padding-bottom: 60px;
+}
+
+.center{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow-y: auto;
+}
+
+/* partner's background*/
+#green{
+    background-color: #A2D39B;
+    border: 15px solid #D1E9CD;
+}
+
+#wine{
+    background-color: #61082B;
+}
+
+#light-blue{
+    background-color: #0093CE;
+}
+
+#light-red{
+    background-color: #FF1C1C;
+}
+
+#red{
+    background-color: #D5001F;
+}
+
+#extra-light-blue{
+    background-color: #B4D0E7;
+}
+
+#blue{
+    background-color: #0D2481;
+}
+
+#yellow{
+    background-color: #FFD830;
+}
+
+
+
