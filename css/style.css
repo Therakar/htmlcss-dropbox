@@ -394,5 +394,26 @@ main hr{
     background-color: #FFD830;
 }
 
+/* section bottom banner */
+#bottom-banner{
+    background-color: #B4D0E7;
+    
+    
+}
 
+#bottom-banner h2{
+    color: #61082B;
+    margin: 70px 0px;
+    padding: 0;
+    
+}
+
+.btn-banner{
+    background-color: #F5F5F5;
+    color: black;
+    border: none;
+    width: 80%;
+    padding-top: 15px 200px;
+    margin-top: 80px;
+}   
 
