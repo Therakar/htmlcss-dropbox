@@ -417,3 +417,20 @@ main hr{
     margin-top: 80px;
 }   
 
+
+/* FAQ */
+
+#faq{
+    margin-top: 100px;
+}
+
+.faq-box{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid lightgray;
+    padding: 30px 0;
+}
+
+#faq .faq-box:last-child{
+    border-bottom: 2px solid lightgray;
+}
